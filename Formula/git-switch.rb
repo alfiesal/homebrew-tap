@@ -2,17 +2,17 @@
 class GitSwitch < Formula
   desc "Switch git users quickly."
   homepage "https://github.com/alfiesal/git-switch"
-  version "0.4.2"
+  version "0.4.3"
   license "MIT"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/<repo_owner>/<repo_name>/releases/download/v0.4.2/git-switch_0.4.2_MacOS_x86_64.tar.gz"
-    sha256 "d6bea00a65386235cc2b589be7de22c59f75a537c70976b5ad05f41c64273e6b"
+    url "https://github.com/alfiesal/git-switch/releases/download/v0.4.3/git-switch_0.4.3_MacOS_x86_64.tar.gz"
+    sha256 "fcd67efd0af24235f08243e569a1f394cedc842fe4a2d8cb5498be36d64d6fa9"
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/<repo_owner>/<repo_name>/releases/download/v0.4.2/git-switch_0.4.2_Linux_x86_64.tar.gz"
-    sha256 "3ce633cade6e4eb423627afda98d39d04530b9da6a4baac142e579c641609e38"
+    url "https://github.com/alfiesal/git-switch/releases/download/v0.4.3/git-switch_0.4.3_Linux_x86_64.tar.gz"
+    sha256 "699f5157c7cd9d4b43610fa338bc41f6f92d84162a30df2c9be9c7863348c45b"
   end
 
   def install
